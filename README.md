@@ -18,16 +18,16 @@ pip install lznt1
 
 ## Test
 ```
-C:\Users\you\Desktop\ln>python test.py lznt1.py
-[*] input size = 4067 bytes, sha1 hash = 9887522d4088152ca434a5f275adcd99c2de338d
-[*] size of compressed1: 1280
-[*] size of compressed2: 1553
-[*] sha1 hash of compressed1: 64b9b5f92274e60d10f3ef0e517f563cc8d46bd6
-[*] sha1 hash of compressed2: 92e737ee1d2b468800169cc7b28854b392ac8395
-[*] sha1 hash of decompressed11: 9887522d4088152ca434a5f275adcd99c2de338d
-[*] sha1 hash of decompressed12: 9887522d4088152ca434a5f275adcd99c2de338d
-[*] sha1 hash of decompressed21: 9887522d4088152ca434a5f275adcd99c2de338d
-[*] sha1 hash of decompressed22: 9887522d4088152ca434a5f275adcd99c2de338d
+C:\Users\you\Desktop>python test.py lznt1.py
+[*] input size = 4034 bytes, sha1 hash = e19250d48c1e46d7d0fa46a5d345487d723559cd
+[*] size of compressed1: 1264
+[*] size of compressed2: 1559
+[*] sha1 hash of compressed1: 720bd5775ee3273deaebabb29a412ea079fa79ae
+[*] sha1 hash of compressed2: 8df2fe59dba7fa4d4d01a8f12f05d7b5799238cc
+[*] sha1 hash of decompressed11: e19250d48c1e46d7d0fa46a5d345487d723559cd
+[*] sha1 hash of decompressed12: e19250d48c1e46d7d0fa46a5d345487d723559cd
+[*] sha1 hash of decompressed21: e19250d48c1e46d7d0fa46a5d345487d723559cd
+[*] sha1 hash of decompressed22: e19250d48c1e46d7d0fa46a5d345487d723559cd
 ```
 
 ## References

@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name="lznt1",
-    version="0.1.2",
+    version="0.2",
     author="You Nakatsuru",
     author_email="you0708@users.noreply.github.com",
     license="Apache License 2.0",
