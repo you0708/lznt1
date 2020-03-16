@@ -3,14 +3,11 @@ import sys
 import copy
 
 def _decompress_chunk(chunk):
-    size = len(chunk)
     out = ''
-    pow2 = 0x10
     while chunk:
         flags = ord(chunk[0])
         chunk = chunk[1:]
         for i in range(8):
-            out_start = len(out)
             if not (flags >> i & 1):
                 out += chunk[0]
                 chunk = chunk[1:]
